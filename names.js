@@ -1,6 +1,4 @@
-function NameComplete ( nameimp, surnameimpo){
-    const NameComplete=
-     { name : nameimp,
-      surname : surnameimpo
-    }
+function NameComplete ( name, surname){
+    return{name,surname}
 }
+module.export = NameComplete
