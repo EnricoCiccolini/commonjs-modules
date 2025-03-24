@@ -3,4 +3,4 @@ function hobbies ( hobbie1, hobbie2 , hobbie3){
     
 }
 
-module.export = hobbies
+module.exports = hobbies

@@ -1,4 +1,8 @@
-function NameComplete ( name, surname){
-    return{name,surname}
+function NameComplete ( name, surnameIns){
+    return{
+        firstname :name,
+        surname :surnameIns}
 }
-module.export = NameComplete
+
+
+module.exports = NameComplete
