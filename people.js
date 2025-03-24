@@ -3,7 +3,7 @@ const names = require("./names")
 
 function schedule(){
     return{
-    names : names('Enrico', 'Ciccolini'),
+    fullName : names('Enrico', 'Ciccolini'),
     hobbies : hobbies('mangiare', 'studiare', 'dormire')
     }
 }
